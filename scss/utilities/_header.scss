@@ -1,0 +1,9 @@
+@import 'palette-colors';
+
+header{
+    background-color: $first-color;
+    width: 100%;
+    padding: 10px 5px;
+    line-height: 200%;
+    z-index: 5;
+}
