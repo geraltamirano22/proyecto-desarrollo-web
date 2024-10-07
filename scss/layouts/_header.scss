@@ -1,0 +1,29 @@
+@import '../utilities/palette-colors';
+
+header{
+    background-color: $first-color;
+    width: 100%;
+    padding: 10px 5px;
+    line-height: 200%;
+    z-index: 5;
+    nav a{
+        text-decoration: none;
+        color: $second-color;
+    }
+    .links-header{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: auto;
+        text-align: center;
+        list-style-type: none;
+        gap: 20px;
+        .link-header{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    }
+}

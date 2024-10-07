@@ -1,0 +1,25 @@
+@import '../../components/button/button';
+@import '../../utilities/palette-colors';
+@import '../../components/flex-elements/flex-elements';
+@import '../../utilities/fixed-img';
+
+.index-3{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: $third-color;
+    .ind-column-text{
+        @include flex-text(100%);
+        a{
+            @include button ($first-color, $second-color);
+        }
+    }
+    .cont-ind-img{
+        @extend .flex-img;
+        .ind-img{
+            @extend .fixed-img;
+        }
+        
+    }
+    
+}

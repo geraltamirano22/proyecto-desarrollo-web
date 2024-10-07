@@ -1,0 +1,31 @@
+@import '../utilities/palette-colors';
+
+footer{
+    background-color: $first-color;
+    width: 100%;
+    padding: 10px 5px 0 5px;
+    line-height: 200%;
+    color: $second-color;
+    align-items: center;
+    bottom: 0;
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        p{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+    .red-social{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}

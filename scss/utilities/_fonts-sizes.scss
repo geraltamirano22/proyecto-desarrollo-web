@@ -1,0 +1,12 @@
+$size-map: (
+    h1: 50px, 
+    h2: 40px, 
+    h3: 30px,
+    p: 20px
+);
+
+@each $name-size, $size in $size-map{
+    .#{$name-size}-size{
+        font-size: $size;
+    }
+}

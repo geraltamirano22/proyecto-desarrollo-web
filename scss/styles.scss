@@ -1,8 +1,5 @@
-@import 'utilities/header';
+@import 'utilities/global-styles';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'pages/index';
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "inter", sans-serif;
-}

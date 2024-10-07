@@ -1,0 +1,28 @@
+@import '../../utilities/palette-colors';
+@import '../../utilities/fixed-img';
+@import '../../utilities/text-position';
+@import '../../utilities/fonts-sizes';
+
+.index-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../../../assets/img/index/new-york-city-brooklyn-bridge-evening-lights-sky-clouds-4k_1538066367.jpg.webp);
+    background-size: cover;
+    .index-1-text{
+        display: flex;
+        @extend .text-position;
+        color: $second-color;
+        text-shadow: 5px 5px 5px black;
+        h1{
+            @extend .h1-size;
+        }
+        h3{
+            @extend .h3-size;
+        }
+    }
+}
+
+
+

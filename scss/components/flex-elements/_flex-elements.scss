@@ -1,0 +1,21 @@
+@import '../../utilities/fonts-sizes';
+@import '../../utilities/text-position';
+
+@mixin flex-text($width){
+    width: $width;
+    @extend .text-position;
+    h2{
+        @extend .h2-size;
+    }
+    p{
+        @extend .p-size;
+    }
+    gap: 20px;
+    padding: 50px;
+}
+
+.flex-img{
+    position: relative;
+    width: 50%;
+}
+
