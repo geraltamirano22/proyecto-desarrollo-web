@@ -1,15 +1,15 @@
 @import '../../utilities/palette-colors';
 @import '../../components/index/containers-index/containers-index';
 
-.index-3{
+.index-5{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
-    background-color: $third-color;
-    .ind-column-text{
-        @extend .column-text;
+    background-color: $fifth-color;
+    .ind-row-text{
+        @extend .row-text;
     }
-    .cont-ind-column-img{
+    .cont-ind-row-img{
         @extend .container-image;
     }
 }

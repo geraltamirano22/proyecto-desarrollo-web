@@ -1,6 +1,5 @@
 @import '../../utilities/palette-colors';
-@import '../../utilities/fixed-img';
-@import '../../components/flex-elements/flex-elements';
+@import '../../components/index/containers-index/containers-index';
 
 .index-2{
     display: flex;
@@ -9,23 +8,18 @@
     background-color: $second-color;
     padding: 50px;
     .ind-row-text{
-        @include flex-text(50%);
+        @extend .row-text;
+    }
+    .index-2-column-pic{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 10px;
+    }
+    .cont-ind-column-img{
+        @extend .container-image;
     }
 }
 
-.index-2-column-pic{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 10px;
-}
 
-.cont-ind-column-img{
-    position: relative;
-    height: 50%;
-    .ind-img{
-        position: absolute;
-        @extend .fixed-img;
-    }
-}
 

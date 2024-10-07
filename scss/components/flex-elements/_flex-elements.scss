@@ -1,8 +1,9 @@
 @import '../../utilities/fonts-sizes';
 @import '../../utilities/text-position';
 
-@mixin flex-text($width){
-    width: $width;
+@mixin flex-text($width-text, $height-text){
+    width: $width-text;
+    height: $height-text;
     @extend .text-position;
     h2{
         @extend .h2-size;
@@ -14,8 +15,9 @@
     padding: 50px;
 }
 
-.flex-img{
+@mixin flex-img($width-img, $height-img){
     position: relative;
-    width: 50%;
+    width: $width-img;
+    height: $height-img;
 }
 

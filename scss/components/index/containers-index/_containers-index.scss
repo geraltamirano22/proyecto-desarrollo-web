@@ -1,0 +1,26 @@
+@import '../../../utilities/fixed-img';
+@import '../../flex-elements/flex-elements';
+@import '../../../utilities/palette-colors';
+@import '../../button/button';
+
+.column-text{
+    @include flex-text(100%, 100%);
+    a{
+        @include button ($first-color, $second-color);
+    }
+}
+
+.container-image{
+    @include flex-img(100%, 100%);
+    .ind-img{
+        @extend .fixed-img;
+    }
+}
+
+.row-text{
+    @include flex-text(50%, 100%);
+    a{
+        @include button ($first-color, $second-color);
+    }
+}
+

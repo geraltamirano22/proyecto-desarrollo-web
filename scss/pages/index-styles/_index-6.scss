@@ -1,11 +1,11 @@
 @import '../../utilities/palette-colors';
 @import '../../components/index/containers-index/containers-index';
 
-.index-3{
+.index-6{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: $third-color;
+    background-color: $fourth-color;
     .ind-column-text{
         @extend .column-text;
     }
