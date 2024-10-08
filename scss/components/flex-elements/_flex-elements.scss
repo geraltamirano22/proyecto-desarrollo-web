@@ -1,10 +1,13 @@
 @import '../../utilities/fonts-sizes';
 @import '../../utilities/text-position';
 
-@mixin flex-text($width-text, $height-text){
+@mixin flex-text($width-text: 0, $height-text: 0){
     width: $width-text;
     height: $height-text;
     @extend .text-position;
+    h1{
+        @extend .h1-size;
+    }
     h2{
         @extend .h2-size;
     }

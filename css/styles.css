@@ -70,7 +70,7 @@ footer .red-social {
   height: 30px;
 }
 
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -79,14 +79,14 @@ footer .red-social {
   left: 0;
 }
 
-.text-position, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .index-1 .index-1-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .index-1 .index-1-text {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .row-text h1, .index-5 .ind-row-text h1, .index-4 .ind-row-text h1, .index-2 .ind-row-text h1, .column-text h1, .index-6 .ind-column-text h1, .index-3 .ind-column-text h1, .index-1 .index-1-text h1 {
   font-size: 50px;
 }
 
@@ -115,7 +115,7 @@ footer .red-social {
   color: #eaeaea;
   text-shadow: 5px 5px 5px black;
 }
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -124,7 +124,7 @@ footer .red-social {
   left: 0;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .row-text h1, .index-5 .ind-row-text h1, .index-4 .ind-row-text h1, .index-2 .ind-row-text h1, .column-text h1, .index-6 .ind-column-text h1, .index-3 .ind-column-text h1, .index-1 .index-1-text h1 {
   font-size: 50px;
 }
 
@@ -140,7 +140,7 @@ footer .red-social {
   font-size: 20px;
 }
 
-.text-position, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .index-1 .index-1-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .index-1 .index-1-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -197,7 +197,7 @@ footer .red-social {
   width: 50%;
   gap: 10px;
 }
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -206,7 +206,7 @@ footer .red-social {
   left: 0;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .index-1 .index-1-text h1, .column-text h1, .index-6 .ind-column-text h1, .index-3 .ind-column-text h1, .row-text h1, .index-5 .ind-row-text h1, .index-4 .ind-row-text h1, .index-2 .ind-row-text h1 {
   font-size: 50px;
 }
 
@@ -222,7 +222,7 @@ footer .red-social {
   font-size: 20px;
 }
 
-.text-position, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .index-3 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -272,7 +272,7 @@ footer .red-social {
   height: 100vh;
   background-color: #769fb6;
 }
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -281,7 +281,7 @@ footer .red-social {
   left: 0;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .index-1 .index-1-text h1, .column-text h1, .index-6 .ind-column-text h1, .row-text h1, .index-5 .ind-row-text h1, .index-4 .ind-row-text h1, .index-2 .ind-row-text h1, .index-3 .ind-column-text h1 {
   font-size: 50px;
 }
 
@@ -297,7 +297,7 @@ footer .red-social {
   font-size: 20px;
 }
 
-.text-position, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .index-3 .ind-column-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-4 .ind-row-text, .index-2 .ind-row-text, .index-3 .ind-column-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -347,7 +347,7 @@ footer .red-social {
   height: 100vh;
   background-color: #d5d6aa;
 }
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -356,7 +356,7 @@ footer .red-social {
   left: 0;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .index-1 .index-1-text h1, .column-text h1, .index-6 .ind-column-text h1, .row-text h1, .index-5 .ind-row-text h1, .index-2 .ind-row-text h1, .index-3 .ind-column-text h1, .index-4 .ind-row-text h1 {
   font-size: 50px;
 }
 
@@ -372,7 +372,7 @@ footer .red-social {
   font-size: 20px;
 }
 
-.text-position, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-2 .ind-row-text, .index-3 .ind-column-text, .index-4 .ind-row-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-5 .ind-row-text, .index-2 .ind-row-text, .index-3 .ind-column-text, .index-4 .ind-row-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -422,7 +422,7 @@ footer .red-social {
   height: 100vh;
   background-color: #9dbbae;
 }
-.fixed-img, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-5 .cont-ind-row-img .ind-img {
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-6 .cont-ind-column-img .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-5 .cont-ind-row-img .ind-img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -431,7 +431,7 @@ footer .red-social {
   left: 0;
 }
 
-.h1-size, .index-1 .index-1-text h1 {
+.h1-size, .title-welcome-cont h1, .index-1 .index-1-text h1, .column-text h1, .index-6 .ind-column-text h1, .row-text h1, .index-2 .ind-row-text h1, .index-3 .ind-column-text h1, .index-4 .ind-row-text h1, .index-5 .ind-row-text h1 {
   font-size: 50px;
 }
 
@@ -447,7 +447,7 @@ footer .red-social {
   font-size: 20px;
 }
 
-.text-position, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-2 .ind-row-text, .index-3 .ind-column-text, .index-4 .ind-row-text, .index-5 .ind-row-text {
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .index-1 .index-1-text, .column-text, .index-6 .ind-column-text, .row-text, .index-2 .ind-row-text, .index-3 .ind-column-text, .index-4 .ind-row-text, .index-5 .ind-row-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -496,6 +496,133 @@ footer .red-social {
   flex-direction: column;
   height: 100vh;
   background-color: #d5d6aa;
+}
+.text-position, .card-continent-elements p, .destinos-1 .continents .card-continent p, .index-1 .index-1-text, .column-text, .row-text, .index-2 .ind-row-text, .index-3 .ind-column-text, .index-4 .ind-row-text, .index-5 .ind-row-text, .index-6 .ind-column-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent, .container-image .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-6 .cont-ind-column-img .ind-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card-continent-elements, .destinos-1 .continents .card-continent {
+  margin: 10px;
+  width: 80%;
+  height: 300px;
+  position: relative;
+}
+.card-continent-elements a, .destinos-1 .continents .card-continent a {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+}
+.card-continent-elements p, .destinos-1 .continents .card-continent p {
+  color: #eaeaea;
+  position: relative;
+  text-shadow: 1px -1px 1px black;
+  z-index: 2;
+}
+.card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent {
+  z-index: 1;
+  filter: brightness(50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destinos-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../assets/img/galeria-fotos-menu/night.jpeg");
+  background-size: cover;
+  height: calc(100vh - 102.4px);
+  color: #eaeaea;
+  text-shadow: 1px 1px 1px;
+}
+.destinos-1 .continents {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(0, 0);
+  padding: 0;
+}
+.fixed-img, .photo, .box-cover-welcome-cont .cover-welcome-cont, .container-image .ind-img, .index-2 .cont-ind-column-img .ind-img, .index-3 .cont-ind-column-img .ind-img, .index-4 .cont-ind-row-img .ind-img, .index-5 .cont-ind-row-img .ind-img, .index-6 .cont-ind-column-img .ind-img, .card-continent-elements .pic-continent, .destinos-1 .continents .card-continent .pic-continent {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.h1-size, .title-welcome-cont h1, .index-1 .index-1-text h1, .column-text h1, .row-text h1, .index-2 .ind-row-text h1, .index-3 .ind-column-text h1, .index-4 .ind-row-text h1, .index-5 .ind-row-text h1, .index-6 .ind-column-text h1 {
+  font-size: 50px;
+}
+
+.h2-size, .column-text h2, .row-text h2, .index-2 .ind-row-text h2, .index-3 .ind-column-text h2, .index-4 .ind-row-text h2, .index-5 .ind-row-text h2, .index-6 .ind-column-text h2 {
+  font-size: 40px;
+}
+
+.h3-size, .index-1 .index-1-text h3 {
+  font-size: 30px;
+}
+
+.p-size, .column-text p, .row-text p, .index-2 .ind-row-text p, .index-3 .ind-column-text p, .index-4 .ind-row-text p, .index-5 .ind-row-text p, .index-6 .ind-column-text p {
+  font-size: 20px;
+}
+
+.box-cover-welcome-cont {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+.box-cover-welcome-cont .cover-welcome-cont {
+  filter: brightness(70%);
+}
+
+.title-welcome-cont {
+  z-index: 2;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eaeaea;
+  text-shadow: 3px 3px 3px black;
+}
+.photos-continent {
+  margin: 50px;
+}
+
+.grid-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0;
+  gap: 30px;
+}
+
+.box-photo {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.photo {
+  box-shadow: 1px 4px 8px black;
 }
 
 /*# sourceMappingURL=styles.css.map */

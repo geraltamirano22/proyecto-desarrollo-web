@@ -1,0 +1,48 @@
+@import '../../utilities/fixed-img';
+@import '../../utilities/palette-colors';
+@import '../../utilities/fonts-sizes';
+@import '../../components/container-grid/container-grid';
+
+.box-cover-welcome-cont{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    .cover-welcome-cont{
+        @extend .fixed-img;
+        filter: brightness(70%);
+    }
+}
+
+.title-welcome-cont{
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $second-color;
+    text-shadow: 3px 3px 3px black;
+    h1{
+        @extend .h1-size;
+    };
+}
+
+.photos-continent{
+    margin: 50px;
+}
+
+.grid-photos{
+    @include container-grid(3,1fr,2,1fr);
+    gap: 30px;
+}
+
+.box-photo{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.photo{
+    @extend .fixed-img;
+    box-shadow: 1px 4px 8px black;
+}

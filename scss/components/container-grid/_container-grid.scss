@@ -1,0 +1,6 @@
+@mixin container-grid($cantCol, $tamCol, $cantFila: 0, $tamFila: 0, $padding: 0){
+    display: grid;
+    grid-template-columns: repeat($cantCol, $tamCol);
+    grid-template-rows: repeat($cantFila, $tamFila);
+    padding: $padding;
+}

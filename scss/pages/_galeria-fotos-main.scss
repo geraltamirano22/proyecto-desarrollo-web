@@ -1,0 +1,22 @@
+@import '../components/container-flex/container-flex';
+@import '../utilities/palette-colors';
+@import '../components/container-grid/container-grid';
+@import '../components/galeria-fotos/card-continent-elements.scss';
+
+
+.destinos-1{
+    @include container-flex(center, center);
+    flex-direction: column;
+    background-image: url('../../assets/img/galeria-fotos-menu/night.jpeg');
+    background-size: cover;
+    height: calc(100vh - 102.4px);
+    color: $second-color;
+    text-shadow: 1px 1px 1px;
+    .continents{
+        @include container-grid(6,1fr);
+        .card-continent{
+            @extend .card-continent-elements;
+        }
+    }
+}
+
